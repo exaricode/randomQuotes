@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+# Random Quote Machine
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is made with [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/) and [Tailwindcss](https://tailwindcss.com/)
 
-## Recommended IDE Setup
+When the component is mounted get a random quote with the author and a random background color. Click the button for next random quote and background color.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+The quote.json is a copy of freeCodeCamp excercise 'build a random quote machine'
+
+- Add/delete quotes from quotes.json file
+- Change the link in QuotesContainer for another .json file
+- Change the colorsArr with your own desired color classes
+- Change the clickBtn value to false to get quotes on a 5 seconds interval 
